@@ -1,11 +1,14 @@
-const h1 = document.querySelector(".hello h1");
-function handleTitleClick() {
-  const clickedClass = "active";
-  if (h1.classList.contains(clickedClass)) {
-    h1.classList.remove(clickedClass);
-  } else {
-    h1.classList.add(clickedClass);
+const body = document.body;
+
+function WindowHanddleResize() {
+  var wWidth = window.innerWidth;
+  if (wWidth <= 400) {
+    body.className = "";
+  } else if (wWidth > 400 && wWidth <= 700) {
+    body.className = "middle";
+  } else if (wWidth > 700) {
+    body.className = "large";
   }
 }
-
-h1.addEventListener("click", handleTitleClick);
+window.addEventListener("resize", WindowHanddleResize);
+//400//700//이상
