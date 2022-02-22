@@ -1,10 +1,6 @@
 // http://koonhous.blogspot.com/2019/11/famous-people-quotes.html
 const quotes = [
     {
-        quote: "Without continuous personal development, you are now all that you will ever become and hell starts when the person you are meets the person you could have been",
-        author: "Eli cohen",
-    },
-    {
         quote: "Working hard for something we don't care about is called stressed, working hard for something we love is called passion.",
         author: "Simon Sinek",
     },

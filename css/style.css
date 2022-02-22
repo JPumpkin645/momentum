@@ -1,4 +1,5 @@
 @import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 
 body {
     width: 100vw;
@@ -8,6 +9,7 @@ body {
     align-items: center;
     color: whitesmoke;
     position: relative;
+    font-family: "Roboto", sans-serif;
 }
 
 img {
@@ -21,21 +23,21 @@ img {
 #weather {
     position: absolute;
     top: 6vh;
-    right: 3vh;
+    right: 3vw;
     justify-content: space-between;
     align-items: center;
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 3vh;
+    font-weight: 700;
 }
 
 #clock {
     margin-top: 35vh;
-    font-size: 150px;
+    font-size: 16vh;
 }
 
 #greeting {
     margin-top: 3vh;
-    font-size: 75px;
+    font-size: 5vh;
 }
 
 .login-form {
@@ -46,14 +48,14 @@ img {
 
 .login-form input {
     text-align: center;
-    font-size: 40px;
+    font-size: 4vh;
     width: 15vw;
     height: 5vh;
 }
 
 .login-form button {
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 2vh;
 }
 
 #todo-form {
@@ -66,22 +68,22 @@ img {
     background-color: transparent;
     text-align: center;
     color: whitesmoke;
-    font-size: 40px;
+    font-size: 4vh;
     width: 30vw;
     height: 5vh;
 }
 
 #todo-form input::placeholder {
     color: whitesmoke;
-    font-size: 40px;
+    font-size: 4vh;
     text-align: center;
 }
 
 #todo-list {
     margin-top: 3vh;
     width: 30vw;
-    height: 25vh;
-    font-size: 30px;
+    height: 20vh;
+    font-size: 3vh;
     overflow-y: scroll;
 }
 
@@ -90,14 +92,14 @@ img {
 }
 
 #todo-list li {
-    margin-bottom: 10px;
+    margin-bottom: 0.5vh;
     word-break: break-all;
     display: flex;
     align-items: center;
 }
 
 #todo-list span {
-    margin-right: 3px;
+    margin-right: 0.25vw;
 }
 
 #todo-list button {
@@ -112,7 +114,7 @@ img {
     padding: 10px;
     position: absolute;
     bottom: 3vh;
-    font-size: 25px;
+    font-size: 3vh;
 }
 
 .hidden {
