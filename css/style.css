@@ -48,7 +48,7 @@ img {
 
 .login-form input {
     text-align: center;
-    font-size: 4vh;
+    font-size: 3vh;
     width: 15vw;
     height: 5vh;
 }
@@ -75,7 +75,7 @@ img {
 
 #todo-form input::placeholder {
     color: whitesmoke;
-    font-size: 4vh;
+    font-size: 3vh;
     text-align: center;
 }
 
